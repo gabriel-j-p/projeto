@@ -1,0 +1,10 @@
+let numero_secreto = 12;
+let palpite;
+do{
+  palpite = prompt ("digite seu palpite,  sabendo que o número é entre 0 e 10");
+  if (palpite != numero_secreto);{
+  console.log("tente novamente");
+} 
+} while (palpite != numero_secreto);
+console.log ("vocề acertou, parabens!");
+
